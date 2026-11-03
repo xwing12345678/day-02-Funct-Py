@@ -41,9 +41,10 @@ def add(cart:list[int|float], price:int|float)->list[int|float]:
     cart.append(price)
     return cart
 
-def cart_total(cart):
+def cart_total(cart:list[int|float])->int|float:
     return sum(cart)
-cart = []
+
+cart:list[int|float] = []
 print(cart, cart_total(cart))
 cart = add(cart, 100)
 print(cart, cart_total(cart))
