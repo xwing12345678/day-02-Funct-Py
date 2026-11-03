@@ -34,3 +34,4 @@ prices = [100, 50]
 with_tax = apply_tax(prices)
 print(prices)
 print(with_tax)
+print(prices)
